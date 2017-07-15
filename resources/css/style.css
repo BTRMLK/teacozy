@@ -8,12 +8,51 @@
 }
 
 header {
+  display: inline-block;
   position: fixed;
   height: 69px;
   border-bottom: 1px solid seashell;
+  flex-direction: row;
 }
 
 .logo {
   padding-left: 10px;
   padding-right: 50px;
+  align-items: 
+
+}
+
+.headernav {
+  text-decoration: underline;
+  color: seashell;
+}
+
+span {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: right;
+}
+
+.ourmission {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+}
+
+.teamonth {
+
+}
+
+.locations {
+
+}
+
+.footer {
+
+}
+
+
+
+p {
+  text-align:left;
+  font-size: 22px;
+  color: seashell;
 }
